@@ -1,13 +1,13 @@
 # GridRelated: 
 It is composed of the following categories of Device Model in related to Building and inheritating properties belong to [Device](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/Device)
 -   Convertor
-    - [AC-DC](### AC-DC)
+    - [AC-DC](###AC-DC)
 -   Meter
-    - [EnergyMeter](### Energy)
-    - [PMU](### PMU)
-    - [PowerMeter](### Power)
+    - [EnergyMeter](###Energy)
+    - [PMU](###PMU)
+    - [PowerMeter](###Power)
 -   Storage
-    - [Batery](### Batery)
+    - [Batery](###Batery)
 ### AC-DC
 Convertor in AC-DC network, according to IEC 61850 standard. It can inherit properties of [Device](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/Device)
 -   `id` : Unique identifier.
