@@ -2,10 +2,10 @@
 It is composed of the following categories of Device Model in related to Building and inheritating properties belong to [Device](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/Device)
 -   Convertor
     - [AC-DC](https://github.com/N5GEH/SARGON/blob/master/Readme/DeviceModel/GridRealted/README.md#ac-dc)
--   Meter
-    - [EnergyMeter](###Energy)
-    - [PMU](###PMU)
-    - [PowerMeter](###Power)
+-   [Meter](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/GridRealted#meter)
+    - [EnergyMeter](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/GridRealted#energy-meter)
+    - [PMU](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/GridRealted#pmu)
+    - [PowerMeter](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/GridRealted#power-meter)
 -   Storage
     - [Batery](###Batery)
 ### AC-DC
