@@ -1,10 +1,10 @@
 # BuildingRelated: 
 It is composed of the following categories of Device Model in related to Building and inheritating properties belong to [Device](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/Device)
-- [Sensor](### Sensor)
-- [Actuator](### Actuator)
-- [Controller](#  Controller)
-- [PID](### PID)
-- [RVK](###  RVK)
+- [Sensor](###Sensor)
+- [Actuator](###Actuator)
+- [Controller](###Controller)
+- [PID](###PID)
+- [RVK](###RVK)
 ### Sensor
 A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. [SAREF](https://w3id.org/saref#Sensor)
 -   `id` : Unique identifier.
