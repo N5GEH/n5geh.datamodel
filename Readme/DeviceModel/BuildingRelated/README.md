@@ -37,14 +37,14 @@ A device that detects and responds to events or changes in the physical environm
      -   Optional
      -   Abbriviation: `lis`
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](x)
+     -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
 - `hasChannel`: to define channel of sensors
-     -  Attribute type: `Relationships`.  object of [Channel](x)
+     -  Attribute type: `Relationships`.  object of [Channel](https://w3id.org/saref#Channel)
      -  (Angle, Frequency, Maqnititute, Rocf, TimeStamp)
      -   Optional
 - `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](x)
+     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 - `address` : Location of this device represented by a GeoJSON geometry of
