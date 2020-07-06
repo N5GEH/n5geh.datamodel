@@ -15,6 +15,6 @@
 },
   "@context": [
     "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Core-Context",
-    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Building.jsonld"
+    "https://raw.githubusercontent.com/N5GEH/SARGON/master/Resources/Context-Information/Building/Building.jsonld"
   ]
 }
