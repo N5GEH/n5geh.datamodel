@@ -3,7 +3,7 @@ It is composed of the following categories of Device Model in related to Buildin
 - [Sensor](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#sensor)
 - [Actuator](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#actuator)
 - [Controller](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#controller)
-- [PID](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#pid)
+     - [PID](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#pid)
 - [RVK](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#rvk)
 ### Sensor
 A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. [SAREF](https://w3id.org/saref#Sensor)
@@ -14,7 +14,7 @@ A device that detects and responds to events or changes in the physical environm
      -   Optional
      -   Abbriviation: `loI`
 - `locatedIn`: Place of Sensor
-     -  Attribute type: `Relationship`. object of [Building](x), [Room](x), and [Zone](x)
+     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `readableName` : Human readable name of Device if it has
      - Attribute type: `Property`. [Text](https://schema.org/Text)
@@ -106,11 +106,11 @@ A device that detects and responds to events or changes in the physical environm
 
 ```
 ### Actuator
- A device responsible for moving or controlling a mechanism or system. [Actuator](https://w3id.org/saref#Actuator).
+ A device responsible for moving or controlling a mechanism or system. [Actuator](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#actuator).
 -   `id` : Unique identifier.
 -  `type` : Entity type. It must be equal to `Sensor`.
 -  `hasSensor`: refer to connected Sensor
-     -  Attribute type: `Relationship`. object of [Sensor](https://w3id.org/saref#Sensor)
+     -  Attribute type: `Relationship`. object of [Sensor](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#sensor)
      -   Optional
 - `locatedIn`: Place of Actuator
      -  Attribute type: `Relationship`. object of [Building](x), [Room](x), and [Zone](x)
@@ -136,14 +136,14 @@ A device that detects and responds to events or changes in the physical environm
      -   Optional
      -   Abbriviation: `lis`
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](x)
+     -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
 - `hasChannel`: to define channel of sensors
-     -  Attribute type: `Relationships`.  object of [Channel](x)
+     -  Attribute type: `Relationships`.  object of [Channel](https://w3id.org/saref#Channel)
      -  (Angle, Frequency, Maqnititute, Rocf, TimeStamp)
      -   Optional
 - `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](x)
+     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 -  `address` : Location of this device represented by a GeoJSON geometry of  type point.
@@ -259,7 +259,7 @@ A device that detects and responds to events or changes in the physical environm
 
 ```
 ### PID
- A controller device for buildiing related area. It uses properties of [Controller](### Controller) and [Device](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/Device)
+ A controller device for buildiing related area. It uses properties of [Controller](https://github.com/N5GEH/SARGON/blob/master/Readme/DeviceModel/BuildingRelated/README.md#controller) and [Device](https://github.com/N5GEH/SARGON/tree/master/Readme/Device)
 -   `id` : Unique identifier.
 -  `type` : Entity type. It must be equal to `PID`.
 -  `kp`: 
