@@ -113,7 +113,7 @@ A device that detects and responds to events or changes in the physical environm
      -  Attribute type: `Relationship`. object of [Sensor](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#sensor)
      -   Optional
 - `locatedIn`: Place of Actuator
-     -  Attribute type: `Relationship`. object of [Building](x), [Room](x), and [Zone](x)
+     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `readableName` : Human readable name of Device if it has
      - Attribute type: `Property`. [Text](https://schema.org/Text)
@@ -191,7 +191,7 @@ A device that detects and responds to events or changes in the physical environm
      -  Attribute type: `Relationship`. object of [Actuator](https://w3id.org/saref#Actuator)
      -   Mandatory
 - `locatedIn`: Place of Controller
-     -  Attribute type: `Relationship`. object of [Building](x), [Room](x), and [Zone](x)
+     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `setValue` : set value to controller sensor 
      - Attribute type: `Property`. [Text](https://schema.org/Text)
@@ -230,7 +230,7 @@ A device that detects and responds to events or changes in the physical environm
      -   Optional
      -   Abbriviation: `lis`
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](x)
+     -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
 - `hasChannel`: to define channel of sensors
      -  Attribute type: `Relationships`.  object of [Channel](x)
@@ -290,7 +290,7 @@ A device that detects and responds to events or changes in the physical environm
      -  Attribute type: `Relationships`.  object of [SubCategory](x)
      -   Optional
 - `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](x)
+     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 -  `address` : Location of this device represented by a GeoJSON geometry of  type point.
