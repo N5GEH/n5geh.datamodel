@@ -4,7 +4,7 @@ This a website to [SARGON Ontology](https://sargon-n5geh.netlify.app/)
 It is composed of the following main entity types categories according to semantical Data model presented in N5GEH project:
 - [Device](https://github.com/N5GEH/SARGON/tree/master/Device). A Device is a physical object to accomplish a particular task. It captures the static attributes which are common in DeviceModel.
 - [DeviceModel](https://github.com/N5GEH/SARGON/tree/master/DeviceModel). It captures the specific Device attributes and categories into main subgroup of [BuildingRealted](https://github.com/N5GEH/SARGON/tree/master/DeviceModel/BuildingRelated) and [GridRealted](https://github.com/N5GEH/SARGON/tree/master/DeviceModel/GridRealted).
-- [Building]()coming soon 
+- [Building](https://github.com/N5GEH/SARGON/tree/master/Building) coming soon 
 
 ## Content
 -   [The use of ontology applied to the Energy Domain](#The-use-of-ontology-applied-to-the-energy-domain)
