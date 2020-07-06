@@ -18,7 +18,7 @@ This entity contains a harmonised description of a generic device model and is t
                -    type: `Property`
                -    Value: `String`
 -   `hasDeviceModel` :
-    -  Attribute type : `Relationship` List of [DeviceModel](https://git.rwth-aachen.de/EBC/Team_BA/projects/n5geh/n5geh.datamodel/-/tree/master/DeviceModel)
+    -  Attribute type : `Relationship` List of [DeviceModel](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
     -  Optional
 -  `controlledAsset` : The asset(s) (building, object, etc.) controlled by the
     device.
