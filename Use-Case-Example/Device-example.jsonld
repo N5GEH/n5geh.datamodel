@@ -129,7 +129,7 @@
         "observedAt": "2017-05-04T12:30:00Z"
     },
   "@context": [
-    "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/master/Core-Context",
-    "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/master/Device.jsonld"
+         "https://raw.githubusercontent.com/N5GEH/SARGON/master/Resources/Context-Information/Core-Context.NGSILd.jsonld",
+         "https://raw.githubusercontent.com/N5GEH/SARGON/master/Resources/Context-Information/Device/Device.jsonld"
   ]
 }
