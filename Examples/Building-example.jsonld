@@ -1,0 +1,76 @@
+{
+  "id": "urn:ngsi-ld:Building:01",
+  "type": "Building",
+  "dataProvider":{
+      "type":"Property",
+      "value": "https://provider.example.com"
+  },
+  "entityVersion":{
+      "type":"Property",
+      "value": 2.0
+  },
+  "hasSensor":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Sensor:01",
+            "urn:ngsi-ld:Sensor:02"
+        ]
+  },
+    
+  "hasRoom":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Room:01",
+            "urn:ngsi-ld:Room:02"
+        ]
+    },
+    "hasFloor":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Floor:01",
+            "urn:ngsi-ld:Floor:02"
+        ]
+    },
+    "hasZone":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Zone:01",
+            "urn:ngsi-ld:Zone:02",
+            "urn:ngsi-ld:Zone:03"
+        ]
+    },
+
+    "category": {
+        "type": "Property",
+        "value": [
+            "house"
+        ]
+    },
+   
+    "address": {
+        "type": "Property",
+        "value": {
+            "@type": "https://schema.org/PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "UK",
+            "postalCode": "EC4N 8AF",
+            "streetAddress": "25 Walbrook"
+        }
+    },
+    "owner": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Person:cdfd9cb8-ae2b-47cb-a43a-b9767ffd5c84",
+            "urn:ngsi-ld:Organization:1be9cd61-ef59-421f-a326-4b6c84411ad4"
+        ]
+    },
+    "description": {
+        "type": "Property",
+        "value": "Multi-tenant office block"
+    }
+},
+  "@context": [
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Core-Context",
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Building.jsonld"
+  ]
+}

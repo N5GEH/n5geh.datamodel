@@ -1,0 +1,31 @@
+{
+  "id": "urn:ngsi-ld:Zone:01",
+    "type": "Zone",
+    "inBuilding": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Building:01"
+    },
+   "inFloor": {
+        "type": "Relationship",
+        "object":"urn:ngsi-ld:Floor:01"
+    },
+   "inRoom": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Room:01",
+            "urn:ngsi-ld:Room:02"
+        ]
+    },
+   "containOf": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Zone:02",
+            "urn:ngsi-ld:Zone:03"
+        ]
+    }
+},
+  "@context": [
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Core-Context",
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Building.jsonld"
+  ]
+}

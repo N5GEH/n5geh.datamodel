@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "source": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/source",
+        "dataProvider": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/dataprovider",
+        "entityVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/entityversion",
+        "buildingType": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/buildingtype",
+        "category": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/category",
+        "containedInPlace": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/containedinplace",
+        "location": "http://uri.etsi.org/ngsi-ld/location",
+        "address": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/address",
+        "owner": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/owner",
+        "occupier": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/occupier",
+        "subscriptionServices": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/subscriptionservices",
+        "floorsAboveGround": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/floorsaboveground",
+        "floorsBelowGround": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/floorsbelowground",
+        "description": "https://schema.org/description",
+        "mapUri": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/mapuri",
+        "notes": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/notes",
+        "hasRoom": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasRoom",
+        "hasFloor" :"https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasFloor",
+        "hasZone" :"https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasZone"
+    }
+}

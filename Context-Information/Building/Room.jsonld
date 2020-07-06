@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "inBuilding": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/inBuilding",
+        "hasTenant": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasTenant",
+        "inFloor": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/inFloor",
+        "inZone": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/inZone",
+        "hasSensor": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasSensor"
+
+    }
+}

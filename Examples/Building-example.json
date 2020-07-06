@@ -1,0 +1,68 @@
+{
+  "id": "Building:01",
+  "type": "Building",
+  "dataProvider":{
+      "type":"Property",
+      "value": "https://provider.example.com"
+  },
+  "entityVersion":{
+      "type":"Property",
+      "value": 2.0
+  },
+  "hasSensor":{
+        "type": "Relationship",
+        "value": [
+            "Sensor:01",
+            "Sensor:02"
+        ]
+    },
+   "hasRoom":{
+        "type": "Relationship",
+        "value": [
+            "Room:01",
+            "Room:02"
+        ]
+    },
+    "hasFloor":{
+        "type": "Relationship",
+        "value": [
+            "Floor:01",
+            "Floor:02"
+        ]
+    },
+    "hasZone":{
+        "type": "Relationship",
+        "value": [
+            "Zone:01",
+            "Zone:02",
+            "Zone:03"
+       ]
+    },
+  "category": {
+        "type": "Property",
+        "value": "house"
+ 
+    },
+   
+  "address": {
+        "type": "Property",
+        "value": {
+            "@type": "https://schema.org/PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "UK",
+            "postalCode": "EC4N 8AF",
+            "streetAddress": "25 Walbrook"
+        }
+    },
+    "owner": {
+        "type": "Relationship",
+        "value": [
+            "Person:cdfd9cb8-ae2b-47cb-a43a-b9767ffd5c84",
+            "Organization:1be9cd61-ef59-421f-a326-4b6c84411ad4"
+        ]
+    },
+    "description": {
+        "type": "Property",
+        "value": "Multi-tenant office block"
+    }
+}

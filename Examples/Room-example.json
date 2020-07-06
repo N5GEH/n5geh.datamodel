@@ -1,0 +1,24 @@
+{
+  "id": "Room:01",
+  "type": "Room",
+  "inBuilding": {
+        "type": "Relationship",
+        "value": "Building:01"
+    },
+   "hasTenant": {
+        "type": "Relationship",
+        "value":"Person:XY"
+    },
+   "inFloor": {
+        "type": "Relationship",
+        "value":"Floor:01"
+    },
+    "inZone": {
+        "type": "Relationship",
+        "value":"Zone:01"
+    },
+    "hasSensor": {
+        "type": "Relationship",
+        "value":"Sensor:01"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Zone:01",
+    "type": "Zone",
+    "inBuilding": {
+        "type": "Relationship",
+        "value": "Building:01"
+    },
+   "inFloor": {
+        "type": "Relationship",
+        "value":"Floor:01"
+    },
+   "inRoom": {
+        "type": "Relationship",
+        "value": [
+            "Room:01",
+            "Room:02"
+        ]
+    },
+   "containOf": {
+        "type": "Relationship",
+        "value": [
+            "Zone:02",
+            "Zone:03"
+        ]
+    }
+}

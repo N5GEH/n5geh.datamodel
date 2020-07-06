@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "source": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/source",
+        "dataProvider": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/dataprovider",
+        "entityVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/entityversion",
+        "deviceModel": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/devicemodel",
+        "serialNumber": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/serialnumber",
+        "supplierName": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/suppliername",
+        "countryOfManufacture": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/countryofmanufacture",
+        "factory": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/factory",
+        "firstUsedAt": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/firstusedat"
+        },
+        "lastCalibrationAt": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/lastcalibrationat"
+        },
+        "installedAt": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/installedat"
+        },
+        "manufacturedAt": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/manufacturedat"
+        },
+        "description": "https://schema.org/description",
+        "owner": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/owner",
+        "hardwareVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hardwareversion",
+        "firmwareVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/firmwareversion",
+        "softwareVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/softwareversion",
+        "osVersion": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/osversion",
+        "supportedProtocols": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/supportedprotocols",
+        "location": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/location",
+        "online": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/online",
+        "status": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/status",
+        "batteryLevel": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/batterylevel",
+        "value": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasValue",
+        "dateFirstUsed": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/datefirstused"
+        },
+        "dateInstalled": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/dateinstalled"
+        },
+        "dateLastCalibration": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/datelastcalibration"
+        },
+        "dateManufactured": {
+            "@type": "DateTime",
+            "@id": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/datemanufactured"
+        }
+    }
+}
+
+

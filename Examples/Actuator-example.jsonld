@@ -1,0 +1,20 @@
+{
+  "id": "urn:ngsi-ld:Actuator:valve1”,
+   "type": "Actuator",
+   "locatedIn":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Building:01",
+            "urn:ngsi-ld:Zone:02"
+        ]
+    },
+    "hasSensor": {
+        "type": "Relationship",
+        "object":"urn:ngsi-ld:Sensor:01"
+    }
+},
+  "@context": [
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Core-Context",
+    "https://raw.githubusercontent.com/mhg-local/N5GEH/master/Building.jsonld"
+  ]
+}

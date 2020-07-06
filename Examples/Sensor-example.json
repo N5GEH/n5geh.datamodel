@@ -1,0 +1,64 @@
+{
+  "id": "Sensor:01",
+  "type": "Sensor",
+  "readableName": {
+    "type": "Property",
+    "value": "KNX Gateway knxip://137.226.249.67:3671"
+  },
+  "hasFunction": {
+    "type": "Relationship",
+    "value": {
+        "type":"Function:Sensing",
+        "sensingValue":""
+  },
+  "isMeasuredIn": {
+    "type": "Relationship",
+    "value": "Measurment:Heat"
+  },
+  "listening": {
+    "type": "Property",
+    "value": "0"
+  },
+  "sampleInterval": {
+    "type": "Property",
+    "value": "1"
+  },
+  "sampleRate": {
+    "type": "Property",
+    "value": "0.1"
+  },
+  "writable": {
+    "type": "Property",
+    "value": "1"
+  },
+  "controlProperty": {
+    "type": "Relationship",
+    "value": "Property:Temperature"
+  },
+  "soppurtedNetwork":{
+    "type": "Property",
+     "value": "KNX"
+  },
+  "loggingInterval":{
+    "type": "Property",
+    "value": "2s"
+  },
+   "locatedIn":{
+        "type": "Relationship",
+        "value": [
+            "Building:01",
+            "Zone:02",
+            "Room:01"
+        ]
+    },
+  "address": {
+    "type": "Property",
+    "value": {
+      "type": "https://schema.org/PostalAddress",
+      "addressLocality": "London",
+      "addressCountry": "UK",
+      "postalCode": "EC4N 8AF",
+      "streetAddress": "25 Walbrook"
+    }
+  }
+ }

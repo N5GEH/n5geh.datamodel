@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "name": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/name",
+    "description": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/description",
+    "address": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/channelAddress",
+    "valueType": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/valueType",
+    "listening": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/listening",
+    "samplingInterval": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/samplingInterval",
+    "loggingInterval": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/loggingInterval",
+    "writable": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/writable",
+    "metaData": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/metaData",
+    "readableName": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/readableName",
+    "hasFunction": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/function",
+    "soppurtedNetwork": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/Network", 
+    "controlProperty": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/Property",
+    "locatedAt": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/Building",
+    "meterType": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/metertype"
+     
+  }
+} 

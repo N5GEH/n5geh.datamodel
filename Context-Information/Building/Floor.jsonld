@@ -1,0 +1,7 @@
+{
+    "@context": {
+        "inBuilding": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/inBuilding",
+        "hasRoom": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/hasTenant",
+        "hasZone": "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/inFloor"
+    }
+}

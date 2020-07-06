@@ -1,0 +1,74 @@
+{
+  "id": "urn:ngsi-ld:Sensor:01",
+  "type": "Sensor",
+  "readableName": {
+    "type": "Property",
+    "value": "KNX Gateway knxip://137.226.249.67:3671"
+  },
+ "hasFunction": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Function:Sensing"
+  },
+  "isMeasuredIn": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Measurment:Heat"
+  },
+  "listening": {
+    "type": "Property",
+    "value": "0"
+  },
+  "sampleInterval": {
+    "type": "Property",
+    "value": "1"
+  },
+  "sampleRate": {
+    "type": "Property",
+    "value": "0.1"
+  },
+  "listening": {
+    "type": "Property",
+    "value": "0"
+  },
+  "writable": {
+    "type": "Property",
+    "value": "1"
+  },
+  "controlProperty": {
+    "type": "Property",
+    "value": "Temperature"
+  },
+  "soppurtedNetwork":{
+    "type": "Property",
+     "value": "KNX"
+  },
+  "loggingInterval":{
+    "type": "Property",
+    "value": "2s"
+  },
+   "locatedIn":{
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Building:01",
+            "urn:ngsi-ld:Zone:02",
+            "urn:ngsi-ld:Room:01"
+        ]
+    },
+  "address": {
+    "type": "Property",
+    "value": {
+      "type": "https://schema.org/PostalAddress",
+      "addressLocality": "London",
+      "addressCountry": "UK",
+      "postalCode": "EC4N 8AF",
+      "streetAddress": "25 Walbrook"
+    }
+  },
+  
+    "@context": [
+        "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/master/Core-Context.NGSILd.jsonld",  
+        "https://raw.githubusercontent.com/Maliheh-Haghgoo/N5GEH/master/Device.jsonld" ]
+ 
+}'
+
+
+
