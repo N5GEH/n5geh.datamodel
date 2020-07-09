@@ -10,43 +10,68 @@ A device that detects and responds to events or changes in the physical environm
 -   `id` : Unique identifier.
 -   `type` : Entity type. It must be equal to `Sensor`.
 -  `loggingInterval`: 
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     -  Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `loI`
+     -  Attribute metadata:
+        - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional
 - `locatedIn`: Place of Sensor
-     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
+     -  Attribute type: `Relationship`. 
+     - Value: object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `readableName` : Human readable name of Device if it has
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `nam`
 - `writable`: if sensor is able to be written
      -  Attribute type: `Property`. 
+     - Value: [Boolean](https://schema.org/Boolean)
      -   Optional
      -   Abbriviation: wri
  - `sampleRate`: Rate of sample values
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `sam`
+     -  Attribute metadata:
+        - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional
 - `sampleInterval`:Interval to send sample values
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: saI
+      -  Attribute metadata:
+         - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional    
 - `listening`: if sensor is able to listen to the commands
      -  Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)    
      -   Optional
-     -   Abbriviation: `lis`
+     -   Abbriviation: `lis`    
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
+     -  Attribute type: `Relationships`. 
+     -  Value: object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
-- `hasChannel`: to define channel of sensors
-     -  Attribute type: `Relationships`.  object of [Channel](https://w3id.org/saref#Channel)
-     -  (Angle, Frequency, Maqnititute, Rocf, TimeStamp)
+- `hasChannel`: 
+     -  Attribute type: `Property`.  [Channel](https://sargon-n5geh.netlify.app)
+     -  Value: [Text](https://schema.org/Text)
+     -  Optional
+     - ( Angle, Frequency, Maqnititute, Rocf, TimeStamp)
+- `isMeasuredIn`: 
+     -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
-- `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
-     -  (Currency, Energy, Pressure, Power, Template, ..)
-     -   Optional
+     - (Currency, Energy, Pressure, Power, Template, ..)
 - `address` : Location of this device represented by a GeoJSON geometry of
     type point.
      -   Attribute type: `GeoProperty`. `geo:json`.
@@ -110,40 +135,59 @@ A device that detects and responds to events or changes in the physical environm
 -   `id` : Unique identifier.
 -  `type` : Entity type. It must be equal to `Sensor`.
 -  `hasSensor`: refer to connected Sensor
-     -  Attribute type: `Relationship`. object of [Sensor](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#sensor)
+     -  Attribute type: `Relationship`.
+     - Value: object of [Sensor](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel/BuildingRelated#sensor)
      -   Optional
 - `locatedIn`: Place of Actuator
-     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
+     -  Attribute type: `Relationship`. 
+     - Value: object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `readableName` : Human readable name of Device if it has
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`.
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `nam`
 - `writable`: if sensor is able to be written
      -  Attribute type: `Property`. 
+     - Value: [Boolean](https://schema.org/Boolean)
      -   Optional
      -   Abbriviation: wri
  - `sampleRate`: Rate of sample values
-     -  Attribute type: `Property`. 
+     -  Attribute type: `Property`.
+     - Value : [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `sam`
+     -  Attribute metadata:
+         - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional    
 - `sampleInterval`:Interval to send sample values
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: saI
+     -  Attribute metadata:
+        - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional
 - `listening`: if sensor is able to listen to the commands
      -  Attribute type: `Property`. 
+     -  Value:[Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `lis`
 - `subCategory`: to track device model categories
      -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
-- `hasChannel`: to define channel of sensors
-     -  Attribute type: `Relationships`.  object of [Channel](https://w3id.org/saref#Channel)
+- `hasChannel`: to define channel [Channel](https://w3id.org/saref#Channel) 
+     -  Attribute type: `Property`.
+     -  Value:[Text](https://schema.org/Text)
      -  (Angle, Frequency, Maqnititute, Rocf, TimeStamp)
      -   Optional
-- `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
+- `isMeasuredIn`: A relationship identifying the unit of measure used for a certain entity. [SAREF](https://w3id.org/saref#isMeasuredIn)
+     -  Attribute type: `Property`.  
+     -  Value: [Text](https://schema.org/Text)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 -  `address` : Location of this device represented by a GeoJSON geometry of  type point.
@@ -185,59 +229,89 @@ A device that detects and responds to events or changes in the physical environm
 -   `id` : Unique identifier.
 -  `type` : Entity type. It must be equal to `Controller`.
 -  `connectedSensor`: refer to te connected sensor
-     -  Attribute type: `Relationship`. object of [Sensor](https://w3id.org/saref#Sensor)
+     -  Attribute type: `Relationship`. 
+     -  Value: object of [Sensor](https://w3id.org/saref#Sensor)
      -   Mandatory
 - `connectedActuator`: refer to te connected sensor
-     -  Attribute type: `Relationship`. object of [Actuator](https://w3id.org/saref#Actuator)
+     -  Attribute type: `Relationship`.
+     - Value: object of [Actuator](https://w3id.org/saref#Actuator)
      -   Mandatory
 - `locatedIn`: Place of Controller
-     -  Attribute type: `Relationship`. object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
+     -  Attribute type: `Relationship`.
+     - Value: object of [Building](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), [Room](https://github.com/N5GEH/SARGON/tree/master/Readme/Building), and [Zone](https://github.com/N5GEH/SARGON/tree/master/Readme/Building)
      -   Mandatory
 - `setValue` : set value to controller sensor 
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`.
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `seV`
+     -  Attribute metadata:
+        - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional     
 - `ipAddress` : IP Address of controller 
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `ipA`
 - `controllAsset` : IP Address of controller 
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`.
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `coA`
 - `supplierName` : Name of supplier
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbrivia`tion: `suN
 - `source` : source of data
-     - Attribute type: `Property`. [Text](https://schema.org/Text)
+     - Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `sou`
 - `writable`: if sensor is able to be written
      -  Attribute type: `Property`. 
+     - Value: [Boolean](https://schema.org/Boolean)
      -   Optional
      -   Abbriviation: wri
  - `sampleRate`: Rate of sample values
-     -  Attribute type: `Property`. 
+     -  Attribute type: `Property`.
+     -  Value : [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `sam`
+     -  Attribute metadata:
+         - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional    
 - `sampleInterval`:Interval to send sample values
      -  Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: saI
+     -  Attribute metadata:
+         - isMeasuredIn: 
+            -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+            -  Value: [Text](https://schema.org/Text)
+            -   Optional   
 - `listening`: if sensor is able to listen to the commands
      -  Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `lis`
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
+     -  Attribute type: `Relationships`.  
+     -  Value: object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
-- `hasChannel`: to define channel of sensors
-     -  Attribute type: `Relationships`.  object of [Channel](x)
+- `hasChannel`: to define channel[Channel](https://w3id.org/saref#Channel) 
+     -  Attribute type: `Property`.
+     - Value: [Text](https://schema.org/Text)
      -  (Angle, Frequency, Maqnititute, Rocf, TimeStamp)
      -   Optional
 - `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](x)
+     -  Attribute type: `Property`.
+     -  Value: [Text](https://schema.org/Text)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 -  `address` : Location of this device represented by a GeoJSON geometry of  type point.
@@ -263,23 +337,28 @@ A device that detects and responds to events or changes in the physical environm
 -   `id` : Unique identifier.
 -  `type` : Entity type. It must be equal to `PID`.
 -  `kp`: 
-     -  Attribute type: `Property`. 
+     -  Attribute type: `Property`.
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `kp`
 -  `ti`: 
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `ti`
 -  `td`: 
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `td`
 -  `higherLimit`: 
      -  Attribute type: `Property`. 
+     - Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `hl`
- -  `lowerimit`: 
+ -  `lowerLimit`: 
      -  Attribute type: `Property`. 
+     -  Value: [Text](https://schema.org/Text)
      -   Optional
      -   Abbriviation: `ll`
  -  `reverseAction`: 
@@ -287,10 +366,11 @@ A device that detects and responds to events or changes in the physical environm
      -   Optional
      -   Abbriviation: `reA`
 - `subCategory`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [SubCategory](x)
+     -  Attribute type: `Property`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
-- `isMeasuredIn`: to track device model categories
-     -  Attribute type: `Relationships`.  object of [Measurment](https://w3id.org/saref#Measurment)
+- `isMeasuredIn`: A relationship identifying the unit of measure used for a certain entity.[isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
+     -  Attribute type: `Property`.  
+     - Value: [Text](https://schema.org/Text)
      -  (Currency, Energy, Pressure, Power, Template, ..)
      -   Optional
 -  `address` : Location of this device represented by a GeoJSON geometry of  type point.
