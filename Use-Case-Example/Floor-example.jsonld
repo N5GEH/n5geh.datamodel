@@ -21,7 +21,7 @@
     }
 },
   "@context": [
-         "https://raw.githubusercontent.com/N5GEH/SARGON/master/Resources/Context-Information/Core-Context.NGSILd.jsonld",
-         "https://raw.githubusercontent.com/N5GEH/SARGON/master/Resources/Context-Information/Building/Building.jsonld"
+         "https://raw.githubusercontent.com/N5GEH/n5geh.datamodel/master/Resources/Context-Information/Core-Context.NGSILd.jsonld",
+         "https://raw.githubusercontent.com/N5GEH/n5geh.datamodel/master/Resources/Context-Information/Building/Building.jsonld"
   ]
 }
