@@ -27,6 +27,7 @@ Convertor in AC-DC network, according to IEC 61850 standard. It can inherit prop
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 - `primaryVoltage` :
      - Attribute type: `Property`. [Text](https://schema.org/Text)
      - Value : [Text](https://schema.org/Text)
@@ -37,6 +38,7 @@ Convertor in AC-DC network, according to IEC 61850 standard. It can inherit prop
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 - `secondaryCurrent`:
      -  Attribute type: `Property`. 
      - Value: [Text](https://schema.org/Text)
@@ -47,6 +49,7 @@ Convertor in AC-DC network, according to IEC 61850 standard. It can inherit prop
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional  
+            - (Currency, Energy, Pressure, Power, Template, ..)
  - `secondaryVoltage`: 
      -  Attribute type: `Property`. 
      -  Value: [Text](https://schema.org/Text)  
@@ -57,6 +60,7 @@ Convertor in AC-DC network, according to IEC 61850 standard. It can inherit prop
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 - `subCategory`: to track device model categories
      -  Attribute type: `Relationships`. 
      -  Value: object of [SubCategory]https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModelx)
@@ -105,6 +109,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `writable`: 
      -  Attribute type: `Property`. 
      -   Value: [Boolean](https://schema.org/Boolean)
@@ -119,6 +124,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `loggingInterval`: 
      -  Attribute type: `Property`. 
      -  Value: [Text](https://schema.org/Text)
@@ -129,6 +135,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 - `subCategory`: to track device model categories
      -  Attribute type: `Relationships`. 
      -  Value: object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
@@ -142,7 +149,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
      -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
      -  Value: [Text](https://schema.org/Text)
      -   Optional
-     
+     - (Currency, Energy, Pressure, Power, Template, ..)
 - `address` : Location of this device represented by a GeoJSON geometry of
     type point.
      -   Attribute type: `GeoProperty`. `geo:json`.
@@ -215,6 +222,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `activePower`: 
      -  Attribute type: `Property`. 
      -   Value: [String](https://schema.org/String)
@@ -225,6 +233,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `reactivePower`: 
      -  Attribute type: `Property`. 
      -   Value: [Text](https://schema.org/Text)
@@ -235,6 +244,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `sampleInterval`: 
      -  Attribute type: `Property`. 
      -   Value: [Text](https://schema.org/Text)
@@ -245,6 +255,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `loggingInterval`: 
      -  Attribute type: `Property`. 
      -   Value: [Text](https://schema.org/Text)
@@ -255,6 +266,7 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 - `subCategory`: to track device model categories
      -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
@@ -311,6 +323,7 @@ A metering device for power, inherit [Metering]() and [Device](https://git.rwth-
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `reactivePower`: 
      -  Attribute type: `Property`. 
      -   Value: [Text](https://schema.org/Text)
@@ -321,6 +334,7 @@ A metering device for power, inherit [Metering]() and [Device](https://git.rwth-
             -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
             -  Value: [Text](https://schema.org/Text)
             -   Optional
+            - (Currency, Energy, Pressure, Power, Template, ..)
 -  `hasFunction`: 
      -  Attribute type: `Relationships`.
      -  Value:  object of  [Function](https://w3id.org/saref#Function)
