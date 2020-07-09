@@ -134,9 +134,10 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
      -  Value: object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
 - `hasChannel`: 
-     -  Attribute type: `Relationships`. 
-     -  value: object of [Channel](https://sargon-n5geh.netlify.app)
-     -   Optional
+     -  Attribute type: `Property`.  [Channel](https://sargon-n5geh.netlify.app)
+     -  Value: [Text](https://schema.org/Text)
+     -  Optional
+     - ( Angle, Frequency, Maqnititute, Rocf, TimeStamp)
 - `isMeasuredIn`: 
      -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
      -  Value: [Text](https://schema.org/Text)
@@ -258,9 +259,10 @@ A metering device, inherit [Device](https://git.rwth-aachen.de/EBC/Team_BA/proje
      -  Attribute type: `Relationships`.  object of [SubCategory](https://github.com/N5GEH/SARGON/tree/master/Readme/DeviceModel)
      -   Optional
 - `hasChannel`: 
-     -  Attribute type: `Property`.  object of [Channel]( Angle, Frequency, Maqnititute, Rocf, TimeStamp)
+     -  Attribute type: `Property`.  [Channel]
      -  Value: [Text](https://schema.org/Text)
      -  Optional
+     - ( Angle, Frequency, Maqnititute, Rocf, TimeStamp)
 - `isMeasuredIn`: 	A relationship identifying the unit of measure used for a certain entity.
      -  Attribute type: `Property`. [isMeasuredIn](https://w3id.org/saref#isMeasuredIn)
      -  Value: [Text](https://schema.org/Text)
