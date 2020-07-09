@@ -100,7 +100,7 @@ The main features of the NGSI-LD Cross Domain model have been added to distingui
 
 With respect to the aforementioned concept, data models have been harmonized to enable data portability for different applications in smart energy system including, but not limited, to building automation and power grid controlling/monitoring. They are intended to be used together with  FIWARE NGSI-LD. The data model is covering Building and Device domains and connecting these two domains according to the concept of Linked-data. Two main classes are related to Device and Building.  Two main classes are related to Device and Building.  A Device is a tangible object, which contains some logic and is producer and/or consumer of data. The device itself categorized into the building related or grid related. Based on this category of devices, a bottom up approach is taken to define an entity within the platform. Each model of device inherent from class Device and has own private properties. Context information of data model exists on https://fiware.n5geh.de/ngsi-ld/ and Figure ? represents the graph visualization of data model with a view of classes in Web Protégé.  
 
- <img src="images/protege.png" width=850> 
+ <img src="Images/protege.png" width=850> 
  
 
 
