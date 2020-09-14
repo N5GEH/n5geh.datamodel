@@ -102,7 +102,11 @@ With respect to the aforementioned concept, data models have been harmonized to 
 
  <img src="Images/protege.png" width=850> 
  
+## Acknowledgment 
 
+We gratefully acknowledge the financial support by the German Federal Ministry for Economic Affairs and Energy, promotional reference 03ET1561B.
+
+<img src="images/BMWi.jpg" width=100> 
 
 
 
