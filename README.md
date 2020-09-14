@@ -106,7 +106,7 @@ With respect to the aforementioned concept, data models have been harmonized to 
 
 We gratefully acknowledge the financial support by the German Federal Ministry for Economic Affairs and Energy, promotional reference 03ET1561B.
 
-<img src="images/BMWi.jpg" width=100> 
+<img src="Images/BMWi.jpg" width=100> 
 
 
 
